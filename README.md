@@ -24,17 +24,18 @@ Projects that I've worked on related to GameDev stuff
 Repo | Language | State | Summary
 ---- | -------- | ----- | -------
 [BragiFont](https://github.com/vonderborch/BragiFont) | C# | Active | An alternative solution for Monogame/FNA/XNA-derived frameworks that utilizes SharpFont to draw text rather than the traditional SpriteFont approach, allowing the use of TTF/OTF files rather than SpriteFont files
+[CS323](https://github.com/vonderborch/CS323) | C# | Abandoned/Archived | A Bullet-Hell style game that was created for one of my classes in college (pretty rough code, but it did function and was pretty fun (balance aside)
 <!-- [](https://github.com/vonderborch/) | C# | Active | A project to -->
 
 ### Utility
 These are small projects that I wrote to help out with some basic task.
 Repo | Language | State | Summary
 ---- | -------- | ----- | -------
-[FolderSync](https://github.com/vonderborch/FolderSync) | C# | Abandoned | A project to keep two files in a source destination synced with a destination destination
+[FolderSync](https://github.com/vonderborch/FolderSync) | C# | Abandoned/Archived | A project to keep two files in a source destination synced with a destination destination
 [ColumnCopier](https://github.com/vonderborch/ColumnCopier) | C# | Paused (rework desired) | A project to copy spreadsheet data (seperated by tabs, spaces, semi-colans, etc.) and display it in column format (and allow copying of single columns, etc.). Handy for working with databases.
-[PclSystemInfo](https://github.com/vonderborch/PclSystemInfo) | C# | Abandoned | A project to gather a variety of system information (processor count, ram amount, etc.) in a cross-platform way using PCL's
-[PclNumberConverters](https://github.com/vonderborch/PclNumberConverters) | C# | Abandoned | A project to allow conversion between a variety of different measurement systems in a cross-platform way using PCL's
-[FenrirFS](https://github.com/vonderborch/FenrirFS) | C# | Abandoned | A project to allow for consistent cross-platform file system access using PCL's. Abandoned due to similar stuff in .NET Standard
+[PclSystemInfo](https://github.com/vonderborch/PclSystemInfo) | C# | Abandoned/Archived | A project to gather a variety of system information (processor count, ram amount, etc.) in a cross-platform way using PCL's
+[PclNumberConverters](https://github.com/vonderborch/PclNumberConverters) | C# | Abandoned/Archived | A project to allow conversion between a variety of different measurement systems in a cross-platform way using PCL's
+[FenrirFS](https://github.com/vonderborch/FenrirFS) | C# | Abandoned/Archived | A project to allow for consistent cross-platform file system access using PCL's. Abandoned due to similar stuff in .NET Standard
 [SharpFont](https://github.com/vonderborch/SharpFont) | C# | Up-To-Date with Base Repo | A fork of [Robmaister's SharpFont](https://github.com/Robmaister/SharpFont) that builds on the work to allow the library to be used with .NET Standard
 <!-- [](https://github.com/vonderborch/) | C# | Active | A project to -->
 
