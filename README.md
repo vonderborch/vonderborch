@@ -26,13 +26,12 @@ Repo | Language | State | Summary
 [BragiFont](https://github.com/vonderborch/BragiFont) | C# | Active | An alternative solution for Monogame/FNA/XNA-derived frameworks that utilizes SharpFont to draw text rather than the traditional SpriteFont approach, allowing the use of TTF/OTF files rather than SpriteFont files
 [VilliInput](https://github.com/vonderborch/VilliInput) | C# | Active (Private Dev) | A solution for handling input better for Monogame/FNA/XNA-derived frameworks. Repo will be made public soon!
 [BaldurUI](https://github.com/vonderborch/BaldurUI) | C# | Active (Private Dev) | A project to make making simple UI's easier with Monogame/FNA/XNA-derived frameworks. Repo will be made public soon!
+[CS323](https://github.com/vonderborch/CS323) | C# | Abandoned/Archived | A Bullet-Hell style game that was created for one of my classes in college (pretty rough code, but it did function and was pretty fun (balance aside)
 <!--
 [](https://github.com/vonderborch/) | C# | Active | A project to 
 [](https://github.com/vonderborch/) | C# | Active | A project to 
 [](https://github.com/vonderborch/) | C# | Active | A project to 
 -->
-[CS323](https://github.com/vonderborch/CS323) | C# | Abandoned/Archived | A Bullet-Hell style game that was created for one of my classes in college (pretty rough code, but it did function and was pretty fun (balance aside)
-<!-- [](https://github.com/vonderborch/) | C# | Active | A project to -->
 
 ### Utility
 These are small projects that I wrote to help out with some basic task.
