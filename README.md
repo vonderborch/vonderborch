@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 -->
 
 # My Personal Projects
-A comprehensive listing of all of my public repos.
+A comprehensive listing of all of my public repos (and info on some of my private repos that will be made public soon).
 
 ### Game Dev
 Projects that I've worked on related to GameDev stuff
@@ -24,6 +24,13 @@ Projects that I've worked on related to GameDev stuff
 Repo | Language | State | Summary
 ---- | -------- | ----- | -------
 [BragiFont](https://github.com/vonderborch/BragiFont) | C# | Active | An alternative solution for Monogame/FNA/XNA-derived frameworks that utilizes SharpFont to draw text rather than the traditional SpriteFont approach, allowing the use of TTF/OTF files rather than SpriteFont files
+[VilliInput](https://github.com/vonderborch/VilliInput) | C# | Active (Private Dev) | A solution for handling input better for Monogame/FNA/XNA-derived frameworks. Repo will be made public soon!
+[BaldurUI](https://github.com/vonderborch/BaldurUI) | C# | Active (Private Dev) | A project to make making simple UI's easier with Monogame/FNA/XNA-derived frameworks. Repo will be made public soon!
+<!--
+[](https://github.com/vonderborch/) | C# | Active | A project to 
+[](https://github.com/vonderborch/) | C# | Active | A project to 
+[](https://github.com/vonderborch/) | C# | Active | A project to 
+-->
 [CS323](https://github.com/vonderborch/CS323) | C# | Abandoned/Archived | A Bullet-Hell style game that was created for one of my classes in college (pretty rough code, but it did function and was pretty fun (balance aside)
 <!-- [](https://github.com/vonderborch/) | C# | Active | A project to -->
 
@@ -36,8 +43,15 @@ Repo | Language | State | Summary
 [PclSystemInfo](https://github.com/vonderborch/PclSystemInfo) | C# | Abandoned/Archived | A project to gather a variety of system information (processor count, ram amount, etc.) in a cross-platform way using PCL's
 [PclNumberConverters](https://github.com/vonderborch/PclNumberConverters) | C# | Abandoned/Archived | A project to allow conversion between a variety of different measurement systems in a cross-platform way using PCL's
 [FenrirFS](https://github.com/vonderborch/FenrirFS) | C# | Abandoned/Archived | A project to allow for consistent cross-platform file system access using PCL's. Abandoned due to similar stuff in .NET Standard
-[SharpFont](https://github.com/vonderborch/SharpFont) | C# | Up-To-Date with Base Repo | A fork of [Robmaister's SharpFont](https://github.com/Robmaister/SharpFont) that builds on the work to allow the library to be used with .NET Standard
-<!-- [](https://github.com/vonderborch/) | C# | Active | A project to -->
+[SharpFont](https://github.com/vonderborch/SharpFont) | C# | Up-To-Date with Base Repo | A fork of [Robmaister's SharpFont](https://github.com/Robmaister/SharpFont) that builds on the work to allow the library to be used with .NET Standard 
+[Collections.Net](https://github.com/vonderborch/Collections.Net) | C# | Active (Private Dev) | A variety of Collections that I've found useful. Some are lock-free, others are not but still extremely useful. Repo will be made public soon!
+[FixedPoint.Net](https://github.com/vonderborch/FixedPoint.Net) | C# | Active (Private Dev) | Fixed-point math in C#. Repo will be made public soon!
+[UnitConversions.Net](https://github.com/vonderborch/UnitConversions.Net) | C# | Active (Private Dev) | A project to handle converting between a variety of unit measurements. Repo will be made public soon!
+<!--
+[](https://github.com/vonderborch/) | C# | Active | A project to 
+[](https://github.com/vonderborch/) | C# | Active | A project to 
+[](https://github.com/vonderborch/) | C# | Active | A project to 
+-->
 
 ### Classwork (legacy)
 I've uploaded all of my old classwork from college (retroactively) for posterity (and in some cases for my own reference). Not all of this still works as I've tried to remove any identifying info from it, in some cases through brute-force means that may make some projects no longer compile. Additionally, in some cases work has been lost. Please be gentle, there's also a lot of pretty bad programming practices in all this...you have been warned!
