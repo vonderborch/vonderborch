@@ -1,4 +1,11 @@
 ### Hi there 👋
+- 🔭 I’m currently working on... AWS & GameDev
+- 🌱 I’m currently learning... AWS
+- 👯 I’m looking to collaborate on... GameDev
+- 🤔 I’m looking for help with... nothing right now
+- 💬 Ask me about... anything
+- 📫 How to reach me: if you know me, you'll know how to reach out to me
+- 😄 Pronouns: he/him/his
 
 <!--
 **vonderborch/vonderborch** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
