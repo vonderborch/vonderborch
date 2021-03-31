@@ -40,7 +40,6 @@ Repo | Language | State | Summary
 Projects that I've worked on that are primarily meant to help with game or app development
 Repo | Language | State | Summary
 ---- | -------- | ----- | -------
-
 [Velentr.Font](https://github.com/vonderborch/Velentr.Font) | C# | Active | An alternative solution for Monogame/FNA/XNA-derived frameworks that utilizes SharpFont to draw text rather than the traditional SpriteFont approach, allowing the use of TTF/OTF files rather than SpriteFont files
 [Velentr.Input](https://github.com/vonderborch/Velentr.Input) | C# | Active | A solution for handling input better for Monogame/FNA/XNA-derived frameworks
 [Velentr.Localizations](https://github.com/vonderborch/Velentr.Localizations) | C# | Active | A simple and easy-to-use localization helper library
