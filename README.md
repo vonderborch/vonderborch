@@ -43,7 +43,8 @@ Repo | Language | State | Summary
 [Velentr.Font](https://github.com/vonderborch/Velentr.Font) | C# | Active | An alternative solution for Monogame/FNA/XNA-derived frameworks that utilizes SharpFont to draw text rather than the traditional SpriteFont approach, allowing the use of TTF/OTF files rather than SpriteFont files
 [Velentr.Input](https://github.com/vonderborch/Velentr.Input) | C# | Active | A solution for handling input better for Monogame/FNA/XNA-derived frameworks
 [Velentr.Localizations](https://github.com/vonderborch/Velentr.Localizations) | C# | Active | A simple and easy-to-use localization helper library
-[Velentr.Collisions](https://github.com/vonderborch/Velentr.Collisions) | C# | Active | A simple collision detection helper library, not intended as a full physics engine
+[Velentr.Collisions](https://github.com/vonderborch/Velentr.Collisions) | C# | Active | A simple collision detection helper library, not intended as a full physics engine 
+[Velentr.Logging](https://github.com/vonderborch/Velentr.Logging) | C# | Active (Private Dev) | A simple and easy-to-use logging helper library
 [Velentr.UI](https://github.com/vonderborch/Velentr.UI) | C# | Active (Private Dev) | A project to make making simple UI's easier with Monogame/FNA/XNA-derived frameworks. Repo will be made public soon!
 <!-- 
 [](https://github.com/vonderborch/) | C# | Active | A project to 
