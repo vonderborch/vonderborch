@@ -62,7 +62,7 @@ Repo | Language | State | Summary
 [PclNumberConverters](https://github.com/vonderborch/PclNumberConverters) | C# | Abandoned/Archived | A project to allow conversion between a variety of different measurement systems in a cross-platform way using PCL's
 [FenrirFS](https://github.com/vonderborch/FenrirFS) | C# | Abandoned/Archived | A project to allow for consistent cross-platform file system access using PCL's. Abandoned due to similar stuff in .NET Standard
 [SharpFont](https://github.com/vonderborch/SharpFont) | C# | Up-To-Date with Base Repo | A fork of [Robmaister's SharpFont](https://github.com/Robmaister/SharpFont) that builds on the work to allow the library to be used with .NET Standard 
-[Collections.Net](https://github.com/vonderborch/Collections.Net) | C# | Active (Private Dev) | A variety of Collections that I've found useful. Some are lock-free, others are not but still extremely useful. Repo will be made public soon!
+[Velentr.Collections](https://github.com/vonderborch/Velentr.Collections) | C# | Active | A variety of helpful collections
 [FixedPoint.Net](https://github.com/vonderborch/FixedPoint.Net) | C# | Active (Private Dev) | Fixed-point math in C#. Repo will be made public soon!
 [UnitConversions.Net](https://github.com/vonderborch/UnitConversions.Net) | C# | Active (Private Dev) | A project to handle converting between a variety of unit measurements. Repo will be made public soon!
 <!--
