@@ -46,6 +46,7 @@ Repo | Language | State | Summary
 [Velentr.Collisions](https://github.com/vonderborch/Velentr.Collisions) | C# | Active | A simple collision detection helper library, not intended as a full physics engine 
 [Velentr.Logging](https://github.com/vonderborch/Velentr.Logging) | C# | Active | A simple and easy-to-use logging helper library
 [Velentr.Sprite](https://github.com/vonderborch/Velentr.Sprite) | C# | Active | A handy growing library of sprite/texture enhancements, including Texture Atlas packing and eventually scene graphs, amongst other things
+[Velentr.Audio](https://github.com/vonderborch/Velentr.Audio) | C# | Active (Private Dev) | A library for making interacting with audio easier
 [Velentr.UI](https://github.com/vonderborch/Velentr.UI) | C# | Active (Private Dev) | A project to make making simple UI's easier with Monogame/FNA/XNA-derived frameworks. Repo will be made public soon! 
 <!-- 
 [](https://github.com/vonderborch/) | C# | Active | A project to 
@@ -66,6 +67,7 @@ Repo | Language | State | Summary
 [Velentr.Collections](https://github.com/vonderborch/Velentr.Collections) | C# | Active | A variety of helpful collections
 [FixedPoint.Net](https://github.com/vonderborch/FixedPoint.Net) | C# | Active (Private Dev) | Fixed-point math in C#. Repo will be made public soon!
 [UnitConversions.Net](https://github.com/vonderborch/UnitConversions.Net) | C# | Active (Private Dev) | A project to handle converting between a variety of unit measurements. Repo will be made public soon!
+[Apertium.Net](https://github.com/vonderborch/Apertium.Net) | C# | Active | A helper library for using Apertium for machine translations.
 <!--
 [](https://github.com/vonderborch/) | C# | Active | A project to 
 [](https://github.com/vonderborch/) | C# | Active | A project to 
