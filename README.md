@@ -38,7 +38,9 @@ Repo | Language | State | Summary
 [Velentr.Logging](https://github.com/vonderborch/Velentr.Logging) | C# | Active | A simple and easy-to-use logging helper library
 [Velentr.Sprite](https://github.com/vonderborch/Velentr.Sprite) | C# | Active | A handy growing library of sprite/texture enhancements, including Texture Atlas packing and eventually scene graphs, amongst other things
 [Velentr.Audio](https://github.com/vonderborch/Velentr.Audio) | C# | Active *(extensive rework planned)* | A library for making interacting with audio easier. I'm planning on doing some extensive reworks of this repo in the future
-[Velentr.UI](https://github.com/vonderborch/Velentr.UI) | C# | Active (Private Dev) | A project to make making simple UI's easier with Monogame/FNA/XNA-derived frameworks. Repo will be made public soon! 
+[Velentr.UI](https://github.com/vonderborch/Velentr.UI) | C# | Active (Private Dev) | A project to make making simple UI's easier with Monogame/FNA/XNA-derived frameworks. Repo will be made public soon!
+[Velentr.Collections](https://github.com/vonderborch/Velentr.Collections) | C# | Active | A variety of helpful collections
+[Velentr.FiniteStateMachine](https://github.com/vonderborch/Velentr.FiniteStateMachine) | C# | Active | A simple implementation of a Finite State Machine
 <!-- 
 [](https://github.com/vonderborch/) | C# | Active | A project to 
 [](https://github.com/vonderborch/) | C# | Active | A project to 
@@ -58,8 +60,6 @@ Repo | Language | State | Summary
 [FixedPoint.Net](https://github.com/vonderborch/FixedPoint.Net) | C# | Active (Private Dev) | Fixed-point math in C#. Repo will be made public soon!
 [UnitConversions.Net](https://github.com/vonderborch/UnitConversions.Net) | C# | Active (Private Dev) | A project to handle converting between a variety of unit measurements. Repo will be made public soon!
 [Apertium.Net](https://github.com/vonderborch/Apertium.Net) | C# | Active | A helper library for using Apertium for machine translations
-[Velentr.Collections](https://github.com/vonderborch/Velentr.Collections) | C# | Active | A variety of helpful collections
-[Velentr.FiniteStateMachine](https://github.com/vonderborch/Velentr.FiniteStateMachine) | C# | Active | A simple implementation of a Finite State Machine
 <!--
 [](https://github.com/vonderborch/) | C# | Active | A project to 
 [](https://github.com/vonderborch/) | C# | Active | A project to 
