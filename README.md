@@ -41,6 +41,7 @@ Repo | Language | State | Summary
 [Velentr.UI](https://github.com/vonderborch/Velentr.UI) | C# | Active (Private Dev) | A project to make making simple UI's easier with Monogame/FNA/XNA-derived frameworks. Repo will be made public soon!
 [Velentr.Collections](https://github.com/vonderborch/Velentr.Collections) | C# | Active | A variety of helpful collections
 [Velentr.FiniteStateMachine](https://github.com/vonderborch/Velentr.FiniteStateMachine) | C# | Active | A simple implementation of a Finite State Machine
+[Velentr.Math](https://github.com/vonderborch/Velentr.Math) | C# | Active | A variety of math helpers that I've found useful
 <!-- 
 [](https://github.com/vonderborch/) | C# | Active | A project to 
 [](https://github.com/vonderborch/) | C# | Active | A project to 
