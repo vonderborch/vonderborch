@@ -42,6 +42,7 @@ Repo | Language | State | Summary
 [Velentr.Collections](https://github.com/vonderborch/Velentr.Collections) | C# | Active | A variety of helpful collections
 [Velentr.FiniteStateMachine](https://github.com/vonderborch/Velentr.FiniteStateMachine) | C# | Active | A simple implementation of a Finite State Machine
 [Velentr.Math](https://github.com/vonderborch/Velentr.Math) | C# | Active | A variety of math helpers that I've found useful
+[Velentr.Miscellaneous](https://github.com/vonderborch/Velentr.Miscellaneous) | C# | Active | Miscellaneous helper methods and things that are useful for various purposes
 <!-- 
 [](https://github.com/vonderborch/) | C# | Active | A project to 
 [](https://github.com/vonderborch/) | C# | Active | A project to 
@@ -53,12 +54,14 @@ These are small projects that I wrote to help out with some basic task.
 Repo | Language | State | Summary
 ---- | -------- | ----- | -------
 [FolderSync](https://github.com/vonderborch/FolderSync) | C# | Abandoned/Archived | A project to keep two files in a source destination synced with a destination destination
-[ColumnCopier](https://github.com/vonderborch/ColumnCopier) | C# | Paused (rework desired) | A project to copy spreadsheet data (seperated by tabs, spaces, semi-colans, etc.) and display it in column format (and allow copying of single columns, etc.). Handy for working with databases.
+[ColumnCopier](https://github.com/vonderborch/ColumnCopier) | C# | Paused (rework desired) | A project to copy spreadsheet data (seperated by tabs, spaces, semi-colans, etc.) and display it in column format (and allow copying of single columns, etc.). Handy for working with databases
 [PclSystemInfo](https://github.com/vonderborch/PclSystemInfo) | C# | Abandoned/Archived | A project to gather a variety of system information (processor count, ram amount, etc.) in a cross-platform way using PCL's
 [PclNumberConverters](https://github.com/vonderborch/PclNumberConverters) | C# | Abandoned/Archived | A project to allow conversion between a variety of different measurement systems in a cross-platform way using PCL's
 [FenrirFS](https://github.com/vonderborch/FenrirFS) | C# | Abandoned/Archived | A project to allow for consistent cross-platform file system access using PCL's. Abandoned due to similar stuff in .NET Standard
-[SharpFont](https://github.com/vonderborch/SharpFont) | C# | Up-To-Date with Base Repo | A fork of [Robmaister's SharpFont](https://github.com/Robmaister/SharpFont) that builds on the work to allow the library to be used with .NET Standard 
+[SharpFont](https://github.com/vonderborch/SharpFont) | C# | Up-To-Date with Base Repo | A fork of [Robmaister's SharpFont](https://github.com/Robmaister/SharpFont) that builds on the work to allow the library to be used with .NET Standard
 [Apertium.Net](https://github.com/vonderborch/Apertium.Net) | C# | Active | A helper library for using Apertium for machine translations
+[Velentr.Miscellaneous](https://github.com/vonderborch/Velentr.Miscellaneous) | C# | Active | Miscellaneous helper methods and things that are useful for various purposes
+[RandomizerBot](https://github.com/vonderborch/RandomizerBot) | C# | Active | A simple (and pretty badly implemented atm) Discord bot used for personal purposes
 <!--
 [](https://github.com/vonderborch/) | C# | Active | A project to 
 [](https://github.com/vonderborch/) | C# | Active | A project to 
