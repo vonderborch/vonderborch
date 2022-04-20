@@ -53,6 +53,7 @@ Repo | Language | State | Summary
 These are small projects that I wrote to help out with some basic task.
 Repo | Language | State | Summary
 ---- | -------- | ----- | -------
+[ToDoList](https://github.com/vonderborch/To-Do-List) | C# | Active | A simple to-do-list app I made for myself
 [FolderSync](https://github.com/vonderborch/FolderSync) | C# | Abandoned/Archived | A project to keep two files in a source destination synced with a destination destination
 [ColumnCopier](https://github.com/vonderborch/ColumnCopier) | C# | Paused (rework desired) | A project to copy spreadsheet data (seperated by tabs, spaces, semi-colans, etc.) and display it in column format (and allow copying of single columns, etc.). Handy for working with databases
 [PclSystemInfo](https://github.com/vonderborch/PclSystemInfo) | C# | Abandoned/Archived | A project to gather a variety of system information (processor count, ram amount, etc.) in a cross-platform way using PCL's
