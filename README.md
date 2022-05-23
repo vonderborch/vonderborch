@@ -43,6 +43,7 @@ Repo | Language | State | Summary
 [Velentr.FiniteStateMachine](https://github.com/vonderborch/Velentr.FiniteStateMachine) | C# | Active | A simple implementation of a Finite State Machine
 [Velentr.Math](https://github.com/vonderborch/Velentr.Math) | C# | Active | A variety of math helpers that I've found useful
 [Velentr.Miscellaneous](https://github.com/vonderborch/Velentr.Miscellaneous) | C# | Active | Miscellaneous helper methods and things that are useful for various purposes
+[Velentr.States](https://github.com/vonderborch/Velentr.States) | C# | Active | A library to help make state management easier
 <!-- 
 [](https://github.com/vonderborch/) | C# | Active | A project to 
 [](https://github.com/vonderborch/) | C# | Active | A project to 
