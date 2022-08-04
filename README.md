@@ -16,6 +16,16 @@ Here are some ideas to get you started:
 # My Personal Projects
 A comprehensive listing of all of my public repos (and info on some of my private repos that will be made public soon).
 
+### Possible Repo States
+The possible states I'm defining for my repos:
+- Active: Supported and up-to-date, no major breaking changes planned
+- Active - Refactoring Planned: Supported and up-to-date, but the code is messy and could be made cleaner to improve maintainability and/or perforamnce
+- Active - Extensive Rework Planned: Supported and up-to-date, but there may be breaking changes coming in the future (will try to limit these where possible!)
+- Active - Unstable: Don't rely on this library! Things may shift out of it at a moment's notice as I see fit!
+- Development: Working on this developing this library currently. Will be released soon(TM)
+- Private: Working on this primarily for myself, may release at some point if I can see a reason why (mostly listed here to keep myself organized!)
+- Abandoned/Archived: No longer supported. Code is as-is (and likely terrible!)
+
 ### Game/App Dev - Games/Apps
 Games and apps that I've worked on
 Repo | Language | State | Summary
@@ -28,27 +38,44 @@ Repo | Language | State | Summary
 -->
 
 ### Game/App Dev - Utility
-Projects that I've worked on that are primarily meant to help with game or app development
-Repo | Language | State | Summary
----- | -------- | ----- | -------
-[Velentr.Font](https://github.com/vonderborch/Velentr.Font) | C# | Active *(extensive rework planned)* | An alternative solution for Monogame/FNA/XNA-derived frameworks that utilizes SharpFont to draw text rather than the traditional SpriteFont approach, allowing the use of TTF/OTF files rather than SpriteFont files. I'm planning on doing some extensive reworks of this repo in the future
-[Velentr.Input](https://github.com/vonderborch/Velentr.Input) | C# | Active *(refactoring planned)* | A solution for handling input better for Monogame/FNA/XNA-derived frameworks. I'm planning on refactoring this in the future to make it more easily maintainable
-[Velentr.Localizations](https://github.com/vonderborch/Velentr.Localizations) | C# | Active | A simple and easy-to-use localization helper library
-[Velentr.Collisions](https://github.com/vonderborch/Velentr.Collisions) | C# | Active | A simple collision detection helper library, not intended as a full physics engine 
-[Velentr.Logging](https://github.com/vonderborch/Velentr.Logging) | C# | Active | A simple and easy-to-use logging helper library
-[Velentr.Sprite](https://github.com/vonderborch/Velentr.Sprite) | C# | Active | A handy growing library of sprite/texture enhancements, including Texture Atlas packing and eventually scene graphs, amongst other things
-[Velentr.Audio](https://github.com/vonderborch/Velentr.Audio) | C# | Active *(extensive rework planned)* | A library for making interacting with audio easier. I'm planning on doing some extensive reworks of this repo in the future
-[Velentr.UI](https://github.com/vonderborch/Velentr.UI) | C# | Active (Private Dev) | A project to make making simple UI's easier with Monogame/FNA/XNA-derived frameworks. Repo will be made public soon!
-[Velentr.Collections](https://github.com/vonderborch/Velentr.Collections) | C# | Active | A variety of helpful collections
-[Velentr.FiniteStateMachine](https://github.com/vonderborch/Velentr.FiniteStateMachine) | C# | Active | A simple implementation of a Finite State Machine
-[Velentr.Math](https://github.com/vonderborch/Velentr.Math) | C# | Active | A variety of math helpers that I've found useful
-[Velentr.Miscellaneous](https://github.com/vonderborch/Velentr.Miscellaneous) | C# | Active | Miscellaneous helper methods and things that are useful for various purposes
-[Velentr.States](https://github.com/vonderborch/Velentr.States) | C# | Active | A library to help make state management easier
+Projects that I've worked on that are primarily meant to help with game or app development.
+
+The overarching "utility" name I'm using right now is [Velentr](https://en.wikipedia.org/wiki/Wayland_the_Smith). I've tried many times making games only to get bogged down reworking the engine so many times nothing ever happens. With my latest attempt, I'm trying something different by taking a page from micro-services and working on/packaging different components of the overall engine/framework separately. This way even if I have plans to rework things, the impact to other packages can be made relatively small...most of the time. Hopefully this will keep me more on track (unless I decide to switch entirely to UE5 :) ).
+
+All of these repos are written in C#.
+#### Packages/Repos
+Repo | State | Summary
+---- | ----- | -------
+[Velentr.AbstractShapes](https://github.com/vonderborch/Velentr.AbstractShapes) | Active | Generic definitions for various shape definitions (Points, Rectangles, Dimensions, and Circles)
+[Velentr.Audio](https://github.com/vonderborch/Velentr.Audio) | Active - Extensive Rework Planned | A library for making interacting with audio easier. I'm planning on doing some extensive reworks of this repo in the future since I don't particularly like how this turned out...
+[Velentr.Collections](https://github.com/vonderborch/Velentr.Collections) | Active | A variety of helpful collections
+[Velentr.Collisions](https://github.com/vonderborch/Velentr.Collisions) | Active - Extensive Rework Planned | A simple collision detection helper library, not intended as a full physics engine 
+[Velentr.Debugging](https://github.com/vonderborch/Velentr.Debugging) | Active | A WIP library containing some useful helpers for code profiling, performance testing, and debugging
+[Velentr.FiniteStateMachine](https://github.com/vonderborch/Velentr.FiniteStateMachine) | Active | A simple implementation of a Finite State Machine
+[Velentr.Font](https://github.com/vonderborch/Velentr.Font) | Active - Extensive Rework Planned | An alternative solution for Monogame/FNA/XNA-derived frameworks that utilizes SharpFont to draw text rather than the traditional SpriteFont approach, allowing the use of TTF/OTF files rather than SpriteFont files. I'm planning on doing some extensive reworks of this repo in the future to remove dependencies on external DLLs
+[Velentr.Input](https://github.com/vonderborch/Velentr.Input) | Active - Refactoring Planned | A solution for handling input better for Monogame/FNA/XNA-derived frameworks. I'm planning on refactoring this in the future to make it more easily maintainable
+[Velentr.Localizations](https://github.com/vonderborch/Velentr.Localizations) | Active | A simple and easy-to-use localization helper library
+[Velentr.Logging](https://github.com/vonderborch/Velentr.Logging) | Active - Extensive Rework Planned | A simple and easy-to-use logging helper library
+[Velentr.Math](https://github.com/vonderborch/Velentr.Math) | Active | A variety of math helpers that I've found useful
+[Velentr.Miscellaneous](https://github.com/vonderborch/Velentr.Miscellaneous) | Active - Unstable | Miscellaneous helper methods and things that are useful for various purposes
+[Velentr.Resolution](https://github.com/vonderborch/Velentr.Resolution) | Active | A library to make handling game resolutions (and pillarboxing/letterboxing) easier
+[Velentr.Scaling](https://github.com/vonderborch/Velentr.Scaling) | Active | A library to make handling scaling on a 2D plane easier
+[Velentr.Sprite](https://github.com/vonderborch/Velentr.Sprite) | Active | A handy growing library of sprite/texture enhancements, including Texture Atlas packing and eventually scene graphs, amongst other things
+[Velentr.States](https://github.com/vonderborch/Velentr.States) | Active | A library to help make state management easier
+[Velentr.UI](https://github.com/vonderborch/Velentr.UI) | Development | An easy-to-use UI library to XNA-derived frameworks like FNA and Monogame
+[Velentr.UtilityApps](https://github.com/vonderborch/Velentr.UtilityApps) | Private | Various utility programs to allow package creation/maintenance to be easier
 <!-- 
-[](https://github.com/vonderborch/) | C# | Active | A project to 
-[](https://github.com/vonderborch/) | C# | Active | A project to 
-[](https://github.com/vonderborch/) | C# | Active | A project to 
+[Velentr.](https://github.com/vonderborch/Velentr.) | Active | 
 -->
+#### Latest Updates
+2022/08/04:
+- New Libraries: Velentr.Debugging, Velentr.AbstractShapes, Velentr.Scaling
+- Reorganized List to be alphabetical
+
+#### Notes
+Due to the timespan some of these libaries have developed over, I can't guarentee they will all work together anymore, particularly any FNA flavored ones. Also _most_ of the packages have broken FNA nuget packages (only the most recent or recently updated ones have been fixed).
+
+There is also plenty of code duplication and places where I have helper packages that I created _after_ releasing another package and now I need to go back and utilize the helper everywhere I can.
 
 ### Utility
 These are small projects that I wrote to help out with some basic task.
