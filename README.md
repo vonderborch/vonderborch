@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 # My Personal Projects
 A comprehensive listing of all of my public repos (and info on some of my private repos that will be made public soon).
 
-### Possible Repo States
+## Possible Repo States
 The possible states I'm defining for my repos:
 - Active: Supported and up-to-date, no major breaking changes planned
 - Active - Refactoring Planned: Supported and up-to-date, but the code is messy and could be made cleaner to improve maintainability and/or perforamnce
@@ -26,7 +26,7 @@ The possible states I'm defining for my repos:
 - Private: Working on this primarily for myself, may release at some point if I can see a reason why (mostly listed here to keep myself organized!)
 - Abandoned/Archived: No longer supported. Code is as-is (and likely terrible!)
 
-### Game/App Dev - Games/Apps
+## Game/App Dev - Games/Apps
 Games and apps that I've worked on
 Repo | Language | State | Summary
 ---- | -------- | ----- | -------
@@ -37,7 +37,7 @@ Repo | Language | State | Summary
 [](https://github.com/vonderborch/) | C# | Active | A project to 
 -->
 
-### Game/App Dev - Utility
+## Game/App Dev - Utility
 Projects that I've worked on that are primarily meant to help with game or app development.
 
 The overarching "utility" name I'm using right now is [Velentr](https://en.wikipedia.org/wiki/Wayland_the_Smith). I've tried many times making games only to get bogged down reworking the engine so many times nothing ever happens. With my latest attempt, I'm trying something different by taking a page from micro-services and working on/packaging different components of the overall engine/framework separately. This way even if I have plans to rework things, the impact to other packages can be made relatively small...most of the time. Hopefully this will keep me more on track (unless I decide to switch entirely to UE5 :) ).
@@ -79,7 +79,7 @@ Repo | State | Summary
 [Velentr.](https://github.com/vonderborch/Velentr.) | Active | 
 -->
 
-### Utility
+## Utility
 These are small projects that I wrote to help out with some basic task.
 Repo | Language | State | Summary
 ---- | -------- | ----- | -------
@@ -100,7 +100,7 @@ Repo | Language | State | Summary
 [](https://github.com/vonderborch/) | C# | Active | A project to 
 -->
 
-### Classwork (legacy)
+## Classwork (legacy)
 I've uploaded all of my old classwork from college (retroactively) for posterity (and in some cases for my own reference). Not all of this still works as I've tried to remove any identifying info from it, in some cases through brute-force means that may make some projects no longer compile. Additionally, in some cases work has been lost. Please be gentle, there's also a lot of pretty bad programming practices in all this...you have been warned!
 Repo | Class Name | Semester & Year | Language(s)
 ---- | ---------- | --------------- | -----------
