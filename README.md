@@ -43,6 +43,17 @@ Projects that I've worked on that are primarily meant to help with game or app d
 The overarching "utility" name I'm using right now is [Velentr](https://en.wikipedia.org/wiki/Wayland_the_Smith). I've tried many times making games only to get bogged down reworking the engine so many times nothing ever happens. With my latest attempt, I'm trying something different by taking a page from micro-services and working on/packaging different components of the overall engine/framework separately. This way even if I have plans to rework things, the impact to other packages can be made relatively small...most of the time. Hopefully this will keep me more on track (unless I decide to switch entirely to UE5 :) ).
 
 All of these repos are written in C#.
+
+#### Latest Updates
+2022/08/04:
+- Big batch of new libraries I've been working on in spare time: Velentr.Debugging, Velentr.AbstractShapes, Velentr.Scaling, Velentr.Resolution
+- Reorganized List to be alphabetical
+
+#### Notes
+Due to the timespan some of these libaries have developed over, I can't guarentee they will all work together anymore, particularly any FNA flavored ones. Also _most_ of the packages have broken FNA nuget packages (only the most recent or recently updated ones have been fixed).
+
+There is also plenty of code duplication and places where I have helper packages that I created _after_ releasing another package and now I need to go back and utilize the helper everywhere I can.
+
 #### Packages/Repos
 Repo | State | Summary
 ---- | ----- | -------
@@ -67,15 +78,6 @@ Repo | State | Summary
 <!-- 
 [Velentr.](https://github.com/vonderborch/Velentr.) | Active | 
 -->
-#### Latest Updates
-2022/08/04:
-- New Libraries: Velentr.Debugging, Velentr.AbstractShapes, Velentr.Scaling
-- Reorganized List to be alphabetical
-
-#### Notes
-Due to the timespan some of these libaries have developed over, I can't guarentee they will all work together anymore, particularly any FNA flavored ones. Also _most_ of the packages have broken FNA nuget packages (only the most recent or recently updated ones have been fixed).
-
-There is also plenty of code duplication and places where I have helper packages that I created _after_ releasing another package and now I need to go back and utilize the helper everywhere I can.
 
 ### Utility
 These are small projects that I wrote to help out with some basic task.
