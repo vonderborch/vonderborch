@@ -30,15 +30,6 @@ The possible states I'm defining for my repos:
 | **Up-To-Date with Base Repo** | Fork from another repo with minimal changes, key in-sync with changes in base repo |
 | **Abandoned/Archived** | No longer supported. Code is as-is (and likely terrible!) |
 
-
-- **Active**: Supported and up-to-date, no major breaking changes planned
-- Active - Refactoring Planned: Supported and up-to-date, but the code is messy and could be made cleaner to improve maintainability and/or perforamnce
-- Active - Extensive Rework Planned: Supported and up-to-date, but there may be breaking changes coming in the future (will try to limit these where possible!)
-- Active - Unstable: Don't rely on this library! Things may shift out of it at a moment's notice as I see fit!
-- Development: Working on this developing this library currently. Will be released soon(TM)
-- Private: Working on this primarily for myself, may release at some point if I can see a reason why (mostly listed here to keep myself organized!)
-- Abandoned/Archived: No longer supported. Code is as-is (and likely terrible!)
-
 ## Game/App Dev - Games/Apps
 Games and apps that I've worked on
 Repo | Language | State | Summary
