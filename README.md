@@ -15,6 +15,16 @@ Here are some ideas to get you started:
 
 # My Personal Projects
 
+## Latest Updates
+2022/08/05:
+- Added FnaUpdater to Apps section - a way to keep FNA up-to-date more easily
+- Added SolutionCreator to Apps section - a way to create solution templates without relying on Visual Studio directly
+- Further cleaned up this readme
+
+2022/08/04:
+- Big batch of new libraries I've been working on in spare time: Velentr.Debugging, Velentr.AbstractShapes, Velentr.Scaling, Velentr.Resolution
+- Reorganized List to be alphabetical
+
 ## Possible Repo States
 The possible states I'm defining for my repos:
 | State | Description |
@@ -29,31 +39,47 @@ The possible states I'm defining for my repos:
 | **Up-To-Date with Base Repo** | Fork from another repo with minimal changes, key in-sync with changes in base repo |
 | **Abandoned/Archived** | No longer supported. Code is as-is (and likely terrible!) |
 
-## Game/App Dev - Games/Apps
-Games and apps that I've worked on
+## Games
+Games that I've created
 Repo | Language | State | Summary
 ---- | -------- | ----- | -------
 [CS323](https://github.com/vonderborch/CS323) | C# | Abandoned/Archived | A Bullet-Hell style game that was created for one of my classes in college (pretty rough code, but it did function and was pretty fun (balance aside)
+
 <!--
-[](https://github.com/vonderborch/) | C# | Active | A project to 
-[](https://github.com/vonderborch/) | C# | Active | A project to 
 [](https://github.com/vonderborch/) | C# | Active | A project to 
 -->
 
-## Game/App Dev - Utility
+## Apps
+Apps that I've created
+Repo | Language | State | Summary
+---- | -------- | ----- | -------
+[ColumnCopier](https://github.com/vonderborch/ColumnCopier) | C# | Paused (rework desired) | A project to copy spreadsheet data (seperated by tabs, spaces, semi-colans, etc.) and display it in column format (and allow copying of single columns, etc.). Handy for working with databases
+[FnaUpdater](https://github.com/vonderborch/FnaUpdater) | C# | Active | A way to install and keep FNA up-to-date
+[FolderSync](https://github.com/vonderborch/FolderSync) | C# | Abandoned/Archived | A project to keep two files in a source destination synced with a destination destination
+[SolutionCreator](https://github.com/vonderborch/SolutionCreator) | C# | Active | A program that allows for creating solutions from custom-built templates. Not a great alternative to what is built-into Visual Studio, but can be easier to use when doing a complex template
+[Stellaris Ironman Save Toggler](https://github.com/vonderborch/stellaris_ironman_toggle) | C# | Active | Toggles a Stellaris Ironman Save between being Ironman and not
+[ToDoList](https://github.com/vonderborch/To-Do-List) | C# | Active | A simple to-do-list app I made for myself
+
+<!--
+[](https://github.com/vonderborch/) | C# | Active | A project to 
+-->
+
+## Bots
+Bots that I've created
+Repo | Language | State | Type | Demo/Link | Summary
+---- | -------- | ----- | ---- | --------- | -------
+[RandomizerBot](https://github.com/vonderborch/RandomizerBot) | C# | Paused | Discord | N/A | A simple (and pretty badly implemented atm) Discord bot used for personal purposes
+
+<!--
+[](https://github.com/vonderborch/) | C# | Active | Discord | N/A | A project to 
+-->
+
+## Packages - Game-dev Focused
 Projects that I've worked on that are primarily meant to help with game or app development.
 
 The overarching "utility" name I'm using right now is [Velentr](https://en.wikipedia.org/wiki/Wayland_the_Smith). I've tried many times making games only to get bogged down reworking the engine so many times nothing ever happens. With my latest attempt, I'm trying something different by taking a page from micro-services and working on/packaging different components of the overall engine/framework separately. This way even if I have plans to rework things, the impact to other packages can be made relatively small...most of the time. Hopefully this will keep me more on track (unless I decide to switch entirely to UE5 :) ).
 
 All of these repos are written in C#.
-
-#### Latest Updates
-2022/08/04:
-- Big batch of new libraries I've been working on in spare time: Velentr.Debugging, Velentr.AbstractShapes, Velentr.Scaling, Velentr.Resolution
-- Reorganized List to be alphabetical
-
-#### TODO
-- 
 
 #### Notes
 Due to the timespan some of these libaries have developed over, I can't guarentee they will all work together anymore, particularly any FNA flavored ones. Also _most_ of the packages have broken FNA nuget packages (only the most recent or recently updated ones have been fixed).
@@ -81,28 +107,22 @@ Repo | State | Summary
 [Velentr.States](https://github.com/vonderborch/Velentr.States) | Active | A library to help make state management easier
 [Velentr.UI](https://github.com/vonderborch/Velentr.UI) | Development | An easy-to-use UI library to XNA-derived frameworks like FNA and Monogame
 [Velentr.UtilityApps](https://github.com/vonderborch/Velentr.UtilityApps) | Private | Various utility programs to allow package creation/maintenance to be easier
+
 <!-- 
 [Velentr.](https://github.com/vonderborch/Velentr.) | Active | 
 -->
 
-## Utility
+## Packages - Other
 These are small projects that I wrote to help out with some basic task.
 Repo | Language | State | Summary
 ---- | -------- | ----- | -------
-[ToDoList](https://github.com/vonderborch/To-Do-List) | C# | Active | A simple to-do-list app I made for myself
-[Stellaris Ironman Save Toggler](https://github.com/vonderborch/stellaris_ironman_toggle) | C# | Active | Toggles a Stellaris Ironman Save between being Ironman and not
-[FolderSync](https://github.com/vonderborch/FolderSync) | C# | Abandoned/Archived | A project to keep two files in a source destination synced with a destination destination
-[ColumnCopier](https://github.com/vonderborch/ColumnCopier) | C# | Paused (rework desired) | A project to copy spreadsheet data (seperated by tabs, spaces, semi-colans, etc.) and display it in column format (and allow copying of single columns, etc.). Handy for working with databases
-[PclSystemInfo](https://github.com/vonderborch/PclSystemInfo) | C# | Abandoned/Archived | A project to gather a variety of system information (processor count, ram amount, etc.) in a cross-platform way using PCL's
-[PclNumberConverters](https://github.com/vonderborch/PclNumberConverters) | C# | Abandoned/Archived | A project to allow conversion between a variety of different measurement systems in a cross-platform way using PCL's
-[FenrirFS](https://github.com/vonderborch/FenrirFS) | C# | Abandoned/Archived | A project to allow for consistent cross-platform file system access using PCL's. Abandoned due to similar stuff in .NET Standard
-[SharpFont](https://github.com/vonderborch/SharpFont) | C# | Up-To-Date with Base Repo | A fork of [Robmaister's SharpFont](https://github.com/Robmaister/SharpFont) that builds on the work to allow the library to be used with .NET Standard
 [Apertium.Net](https://github.com/vonderborch/Apertium.Net) | C# | Active | A helper library for using Apertium for machine translations
-[Velentr.Miscellaneous](https://github.com/vonderborch/Velentr.Miscellaneous) | C# | Active | Miscellaneous helper methods and things that are useful for various purposes
-[RandomizerBot](https://github.com/vonderborch/RandomizerBot) | C# | Active | A simple (and pretty badly implemented atm) Discord bot used for personal purposes
+[FenrirFS](https://github.com/vonderborch/FenrirFS) | C# | Abandoned/Archived | A project to allow for consistent cross-platform file system access using PCL's. Abandoned due to similar stuff in .NET Standard
+[PclNumberConverters](https://github.com/vonderborch/PclNumberConverters) | C# | Abandoned/Archived | A project to allow conversion between a variety of different measurement systems in a cross-platform way using PCL's
+[PclSystemInfo](https://github.com/vonderborch/PclSystemInfo) | C# | Abandoned/Archived | A project to gather a variety of system information (processor count, ram amount, etc.) in a cross-platform way using PCL's
+[SharpFont](https://github.com/vonderborch/SharpFont) | C# | Up-To-Date with Base Repo | A fork of [Robmaister's SharpFont](https://github.com/Robmaister/SharpFont) that builds on the work to allow the library to be used with .NET Standard
+
 <!--
-[](https://github.com/vonderborch/) | C# | Active | A project to 
-[](https://github.com/vonderborch/) | C# | Active | A project to 
 [](https://github.com/vonderborch/) | C# | Active | A project to 
 -->
 
