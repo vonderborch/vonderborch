@@ -14,7 +14,6 @@ Here are some ideas to get you started:
 -->
 
 # My Personal Projects
-A comprehensive listing of all of my public repos (and info on some of my private repos that will be made public soon).
 
 ## Possible Repo States
 The possible states I'm defining for my repos:
