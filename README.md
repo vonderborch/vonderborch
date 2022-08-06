@@ -106,7 +106,6 @@ Repo | State | Summary
 [Velentr.Sprite](https://github.com/vonderborch/Velentr.Sprite) | Active | A handy growing library of sprite/texture enhancements, including Texture Atlas packing and eventually scene graphs, amongst other things
 [Velentr.States](https://github.com/vonderborch/Velentr.States) | Active | A library to help make state management easier
 [Velentr.UI](https://github.com/vonderborch/Velentr.UI) | Development | An easy-to-use UI library to XNA-derived frameworks like FNA and Monogame
-[Velentr.UtilityApps](https://github.com/vonderborch/Velentr.UtilityApps) | Private | Various utility programs to allow package creation/maintenance to be easier
 
 <!-- 
 [Velentr.](https://github.com/vonderborch/Velentr.) | Active | 
