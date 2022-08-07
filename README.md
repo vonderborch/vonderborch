@@ -16,6 +16,11 @@ Here are some ideas to get you started:
 # My Personal Projects
 
 ## Latest Updates
+2022/08/06:
+- Updated ToDoList app with some extra functionality/improvements
+- Added Velentr.Helpers library
+- Tweaks to the SolutionCreator templates that I've built based on usage
+
 2022/08/05:
 - Added FnaUpdater to Apps section - a way to keep FNA up-to-date more easily
 - Added SolutionCreator to Apps section - a way to create solution templates without relying on Visual Studio directly
@@ -103,7 +108,7 @@ Repo | State | Summary
 [Velentr.ECS](https://github.com/vonderborch/Velentr.ECS) | Development | Basic ECS library, coming soon!
 [Velentr.FiniteStateMachine](https://github.com/vonderborch/Velentr.FiniteStateMachine) | Active | A simple implementation of a Finite State Machine
 [Velentr.Font](https://github.com/vonderborch/Velentr.Font) | Active - Extensive Rework Planned | An alternative solution for Monogame/FNA/XNA-derived frameworks that utilizes SharpFont to draw text rather than the traditional SpriteFont approach, allowing the use of TTF/OTF files rather than SpriteFont files. I'm planning on doing some extensive reworks of this repo in the future to remove dependencies on external DLLs
-[Velentr.Helpers](https://github.com/vonderborch/Velentr.Helpers) | Development | Various core helpers, coming soon!
+[Velentr.Helpers](https://github.com/vonderborch/Velentr.Helpers) | Active | Various core helpers, coming soon!
 [Velentr.Input](https://github.com/vonderborch/Velentr.Input) | Active - Refactoring Planned | A solution for handling input better for Monogame/FNA/XNA-derived frameworks. I'm planning on refactoring this in the future to make it more easily maintainable
 [Velentr.Localizations](https://github.com/vonderborch/Velentr.Localizations) | Active | A simple and easy-to-use localization helper library
 [Velentr.Logging](https://github.com/vonderborch/Velentr.Logging) | Active - Extensive Rework Planned | A simple and easy-to-use logging helper library
