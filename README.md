@@ -106,7 +106,7 @@ Repo | State | Summary
 [Velentr.Collections](https://github.com/vonderborch/Velentr.Collections) | Active | A variety of helpful collections
 [Velentr.Collisions](https://github.com/vonderborch/Velentr.Collisions) | Active - Extensive Rework Planned | A simple collision detection helper library, not intended as a full physics engine 
 [Velentr.Core](https://github.com/vonderborch/Velentr.Core) | Active | Core library the other Velentr packages depend on, containing helpers and common objects/interfaces/etc.
-[Velentr.Debugging](https://github.com/vonderborch/Velentr.Debugging) | Active | A WIP library containing some useful helpers for code profiling, performance testing, and debugging
+[Velentr.PerformanceMetrics](https://github.com/vonderborch/Velentr.PerformanceMetrics) | Active | A WIP library containing some useful helpers for code profiling, performance testing, and debugging
 [Velentr.Drawing](https://github.com/vonderborch/Velentr.Drawing) | Development | Basic shape drawing, coming soon!
 [Velentr.ECS](https://github.com/vonderborch/Velentr.ECS) | Development | Basic ECS library, coming soon!
 [Velentr.FiniteStateMachine](https://github.com/vonderborch/Velentr.FiniteStateMachine) | Active | A simple implementation of a Finite State Machine
