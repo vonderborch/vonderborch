@@ -16,19 +16,14 @@ Here are some ideas to get you started:
 # My Personal Projects
 
 ## Latest Updates
+2022/11/16:
+- Experimental updates to the SolutionCreator. The program ain't stable atm and I need to clean it up a ton, so not doing a full release.
+- Velentr.Core (released) now replaces Velentr.AbstractShapes, Velentr.Helpers, Velentr.Math, and Velentr.Miscellaneous (the four of which are now archived).
+
 2022/08/06:
 - Updated ToDoList app with some extra functionality/improvements
 - Added Velentr.Helpers library
 - Tweaks to the SolutionCreator templates that I've built based on usage
-
-2022/08/05:
-- Added FnaUpdater to Apps section - a way to keep FNA up-to-date more easily
-- Added SolutionCreator to Apps section - a way to create solution templates without relying on Visual Studio directly
-- Further cleaned up this readme
-
-2022/08/04:
-- Big batch of new libraries I've been working on in spare time: Velentr.Debugging, Velentr.AbstractShapes, Velentr.Scaling, Velentr.Resolution
-- Reorganized List to be alphabetical
 
 ## Todo
 - ~~Finished first-pass of Velentr libraries~~
@@ -99,26 +94,32 @@ There is also plenty of code duplication and places where I have helper packages
 #### Packages/Repos
 Repo | State | Summary
 ---- | ----- | -------
-[Velentr.AbstractShapes](https://github.com/vonderborch/Velentr.AbstractShapes) | Active | Generic definitions for various shape definitions (Points, Rectangles, Dimensions, and Circles)
 [Velentr.Audio](https://github.com/vonderborch/Velentr.Audio) | Active - Extensive Rework Planned | A library for making interacting with audio easier. I'm planning on doing some extensive reworks of this repo in the future since I don't particularly like how this turned out...
 [Velentr.Collections](https://github.com/vonderborch/Velentr.Collections) | Active | A variety of helpful collections
 [Velentr.Collisions](https://github.com/vonderborch/Velentr.Collisions) | Active - Extensive Rework Planned | A simple collision detection helper library, not intended as a full physics engine 
+[Velentr.Core](https://github.com/vonderborch/Velentr.Core) | Active | Core library the other Velentr packages depend on, containing helpers and common objects/interfaces/etc.
 [Velentr.Debugging](https://github.com/vonderborch/Velentr.Debugging) | Active | A WIP library containing some useful helpers for code profiling, performance testing, and debugging
 [Velentr.Drawing](https://github.com/vonderborch/Velentr.Drawing) | Development | Basic shape drawing, coming soon!
 [Velentr.ECS](https://github.com/vonderborch/Velentr.ECS) | Development | Basic ECS library, coming soon!
 [Velentr.FiniteStateMachine](https://github.com/vonderborch/Velentr.FiniteStateMachine) | Active | A simple implementation of a Finite State Machine
 [Velentr.Font](https://github.com/vonderborch/Velentr.Font) | Active - Extensive Rework Planned | An alternative solution for Monogame/FNA/XNA-derived frameworks that utilizes SharpFont to draw text rather than the traditional SpriteFont approach, allowing the use of TTF/OTF files rather than SpriteFont files. I'm planning on doing some extensive reworks of this repo in the future to remove dependencies on external DLLs
-[Velentr.Helpers](https://github.com/vonderborch/Velentr.Helpers) | Active | Various core helpers, coming soon!
 [Velentr.Input](https://github.com/vonderborch/Velentr.Input) | Active - Refactoring Planned | A solution for handling input better for Monogame/FNA/XNA-derived frameworks. I'm planning on refactoring this in the future to make it more easily maintainable
 [Velentr.Localizations](https://github.com/vonderborch/Velentr.Localizations) | Active | A simple and easy-to-use localization helper library
 [Velentr.Logging](https://github.com/vonderborch/Velentr.Logging) | Active - Extensive Rework Planned | A simple and easy-to-use logging helper library
-[Velentr.Math](https://github.com/vonderborch/Velentr.Math) | Active | A variety of math helpers that I've found useful
-[Velentr.Miscellaneous](https://github.com/vonderborch/Velentr.Miscellaneous) | Active - Unstable | Miscellaneous helper methods and things that are useful for various purposes
 [Velentr.Resolution](https://github.com/vonderborch/Velentr.Resolution) | Active | A library to make handling game resolutions (and pillarboxing/letterboxing) easier
 [Velentr.Scaling](https://github.com/vonderborch/Velentr.Scaling) | Active | A library to make handling scaling on a 2D plane easier
 [Velentr.Sprite](https://github.com/vonderborch/Velentr.Sprite) | Active | A handy growing library of sprite/texture enhancements, including Texture Atlas packing and eventually scene graphs, amongst other things
 [Velentr.States](https://github.com/vonderborch/Velentr.States) | Active | A library to help make state management easier
 [Velentr.UI](https://github.com/vonderborch/Velentr.UI) | Development | An easy-to-use UI library to XNA-derived frameworks like FNA and Monogame
+
+#### Archived/Abandoned Packages
+
+Repo | Replacing Package | Summary
+---- | ----- | -------
+[Velentr.AbstractShapes](https://github.com/vonderborch/Velentr.AbstractShapes) | [Velentr.Core](https://github.com/vonderborch/Velentr.Core) | Generic definitions for various shape definitions (Points, Rectangles, Dimensions, and Circles)
+[Velentr.Helpers](https://github.com/vonderborch/Velentr.Helpers) | [Velentr.Core](https://github.com/vonderborch/Velentr.Core) | Various core helpers, coming soon!
+[Velentr.Math](https://github.com/vonderborch/Velentr.Math) | [Velentr.Core](https://github.com/vonderborch/Velentr.Core) | A variety of math helpers that I've found useful
+[Velentr.Miscellaneous](https://github.com/vonderborch/Velentr.Miscellaneous) | [Velentr.Core](https://github.com/vonderborch/Velentr.Core) | Miscellaneous helper methods and things that are useful for various purposes
 
 <!-- 
 [Velentr.](https://github.com/vonderborch/Velentr.) | Active | 
