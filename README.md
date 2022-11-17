@@ -21,7 +21,7 @@ Here are some ideas to get you started:
 - SolutionCreator-Templates: Minor updates based on testing/using the new versions of the templates.
 - Velentr.Core: logo updates to make more consistent with other repos as they get (re)built.
 - Velentr.Collections: bumped to v2, brought in-line with current repo organizational standards.
-- Velentr.Debugging: Renamed to Velentr.PerformanceMetrics. Bumped to v2, brought in-line with current repo organizational standards.
+- Velentr.Debugging: Renamed to Velentr.PerformanceMetrics. Bumped to v2, brought in-line with current repo organizational standards. Added a version of the Game class that has the performance metrics built-into it.
 
 2022/11/16:
 - Experimental updates to the SolutionCreator. The program ain't stable atm and I need to clean it up a ton, so not doing a full release.
