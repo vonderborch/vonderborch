@@ -16,8 +16,15 @@ Here are some ideas to get you started:
 # My Personal Projects
 
 ## Latest Updates
+
+2022/11/17:
+- SolutionCreator-Templates: Minor updates based on testing/using the new versions of the templates.
+- Velentr.Core: logo updates to make more consistent with other repos as they get (re)built.
+- Velentr.Collections: bumped to v2, brought in-line with current repo organizational standards.
+
 2022/11/16:
 - Experimental updates to the SolutionCreator. The program ain't stable atm and I need to clean it up a ton, so not doing a full release.
+- SolutionCreator-Templates: templates for SolutionCreator live here now, updated them to bring them all in-line with each other and make things more consistent.
 - Velentr.Core (released) now replaces Velentr.AbstractShapes, Velentr.Helpers, Velentr.Math, and Velentr.Miscellaneous (the four of which are now archived).
 
 2022/08/06:
@@ -61,7 +68,7 @@ Repo | Language | State | Summary
 [ColumnCopier](https://github.com/vonderborch/ColumnCopier) | C# | Paused (rework desired) | A project to copy spreadsheet data (seperated by tabs, spaces, semi-colans, etc.) and display it in column format (and allow copying of single columns, etc.). Handy for working with databases
 [FnaUpdater](https://github.com/vonderborch/FnaUpdater) | C# | Active | A way to install and keep FNA up-to-date
 [FolderSync](https://github.com/vonderborch/FolderSync) | C# | Abandoned/Archived | A project to keep two files in a source destination synced with a destination destination
-[SolutionCreator](https://github.com/vonderborch/SolutionCreator) | C# | Active | A program that allows for creating solutions from custom-built templates. Not a great alternative to what is built-into Visual Studio, but can be easier to use when doing a complex template
+[SolutionCreator](https://github.com/vonderborch/SolutionCreator) | C# | Active | A program that allows for creating solutions from custom-built templates. Not a great alternative to what is built-into Visual Studio, but can be easier to use when doing a complex template. Related repo is the [Templates](https://github.com/vonderborch/SolutionCreator-Templates) repo.
 [Stellaris Ironman Save Toggler](https://github.com/vonderborch/stellaris_ironman_toggle) | C# | Active | Toggles a Stellaris Ironman Save between being Ironman and not
 [ToDoList](https://github.com/vonderborch/To-Do-List) | C# | Active | A simple to-do-list app I made for myself
 
