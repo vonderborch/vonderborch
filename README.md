@@ -106,7 +106,6 @@ Repo | State | Summary
 [Velentr.Collections](https://github.com/vonderborch/Velentr.Collections) | Active | A variety of helpful collections
 [Velentr.Collisions](https://github.com/vonderborch/Velentr.Collisions) | Active - Extensive Rework Planned | A simple collision detection helper library, not intended as a full physics engine 
 [Velentr.Core](https://github.com/vonderborch/Velentr.Core) | Active | Core library the other Velentr packages depend on, containing helpers and common objects/interfaces/etc.
-[Velentr.PerformanceMetrics](https://github.com/vonderborch/Velentr.PerformanceMetrics) | Active | A WIP library containing some useful helpers for code profiling, performance testing, and debugging
 [Velentr.Drawing](https://github.com/vonderborch/Velentr.Drawing) | Development | Basic shape drawing, coming soon!
 [Velentr.ECS](https://github.com/vonderborch/Velentr.ECS) | Development | Basic ECS library, coming soon!
 [Velentr.FiniteStateMachine](https://github.com/vonderborch/Velentr.FiniteStateMachine) | Active | A simple implementation of a Finite State Machine
@@ -114,6 +113,7 @@ Repo | State | Summary
 [Velentr.Input](https://github.com/vonderborch/Velentr.Input) | Active - Refactoring Planned | A solution for handling input better for Monogame/FNA/XNA-derived frameworks. I'm planning on refactoring this in the future to make it more easily maintainable
 [Velentr.Localizations](https://github.com/vonderborch/Velentr.Localizations) | Active | A simple and easy-to-use localization helper library
 [Velentr.Logging](https://github.com/vonderborch/Velentr.Logging) | Active - Extensive Rework Planned | A simple and easy-to-use logging helper library
+[Velentr.PerformanceMetrics](https://github.com/vonderborch/Velentr.PerformanceMetrics) | Active | A WIP library containing some useful helpers for code profiling, performance testing, and debugging
 [Velentr.Resolution](https://github.com/vonderborch/Velentr.Resolution) | Active | A library to make handling game resolutions (and pillarboxing/letterboxing) easier
 [Velentr.Scaling](https://github.com/vonderborch/Velentr.Scaling) | Active | A library to make handling scaling on a 2D plane easier
 [Velentr.Sprite](https://github.com/vonderborch/Velentr.Sprite) | Active | A handy growing library of sprite/texture enhancements, including Texture Atlas packing and eventually scene graphs, amongst other things
