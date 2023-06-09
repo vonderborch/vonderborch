@@ -17,6 +17,9 @@ Here are some ideas to get you started:
 
 ## Latest Updates
 
+2023/06/09:
+- SolutionCreator and SolutionCreator-Templates: Archived, rebuilt from the ground-up and being replaced by Templater and Templater-Templates respectively.
+
 2022/11/17:
 - SolutionCreator-Templates: Minor updates based on testing/using the new versions of the templates.
 - Velentr.Core: logo updates to make more consistent with other repos as they get (re)built.
@@ -69,13 +72,21 @@ Repo | Language | State | Summary
 [ColumnCopier](https://github.com/vonderborch/ColumnCopier) | C# | Paused (rework desired) | A project to copy spreadsheet data (seperated by tabs, spaces, semi-colans, etc.) and display it in column format (and allow copying of single columns, etc.). Handy for working with databases
 [FnaUpdater](https://github.com/vonderborch/FnaUpdater) | C# | Active | A way to install and keep FNA up-to-date
 [FolderSync](https://github.com/vonderborch/FolderSync) | C# | Abandoned/Archived | A project to keep two files in a source destination synced with a destination destination
-[SolutionCreator](https://github.com/vonderborch/SolutionCreator) | C# | Active | A program that allows for creating solutions from custom-built templates. Not a great alternative to what is built-into Visual Studio, but can be easier to use when doing a complex template. Related repo is the [Templates](https://github.com/vonderborch/SolutionCreator-Templates) repo.
+[Templater](https://github.com/vonderborch/Templater) | C# | Development | A program that allows for creating solutions from custom-built templates. Built since building multi-project templates in Visual Studio was annoying after awhile. Related repo is the [Templates repo](https://github.com/vonderborch/Templater-Templates).
 [Stellaris Ironman Save Toggler](https://github.com/vonderborch/stellaris_ironman_toggle) | C# | Active | Toggles a Stellaris Ironman Save between being Ironman and not
 [ToDoList](https://github.com/vonderborch/To-Do-List) | C# | Active | A simple to-do-list app I made for myself
 
 <!--
 [](https://github.com/vonderborch/) | C# | Active | A project to 
 -->
+
+
+#### Archived/Abandoned Apps
+Apps that I've created
+Repo | Language | Replacement App | Summary
+---- | -------- | ----- | -------
+[FolderSync](https://github.com/vonderborch/FolderSync) | C# | N/A | A project to keep two files in a source destination synced with a destination destination
+[SolutionCreator](https://github.com/vonderborch/SolutionCreator) | C# | [Templater](https://github.com/vonderborch/Templater) | A program that allows for creating solutions from custom-built templates. Not a great alternative to what is built-into Visual Studio, but can be easier to use when doing a complex template. Built since building multi-project templates in Visual Studio was annoying after awhile. Related repo is the [Templates](https://github.com/vonderborch/SolutionCreator-Templates) repo.
 
 ## Bots
 Bots that I've created
@@ -120,15 +131,6 @@ Repo | State | Summary
 [Velentr.States](https://github.com/vonderborch/Velentr.States) | Active | A library to help make state management easier
 [Velentr.UI](https://github.com/vonderborch/Velentr.UI) | Development | An easy-to-use UI library to XNA-derived frameworks like FNA and Monogame
 
-#### Archived/Abandoned Packages
-
-Repo | Replacing Package | Summary
----- | ----- | -------
-[Velentr.AbstractShapes](https://github.com/vonderborch/Velentr.AbstractShapes) | [Velentr.Core](https://github.com/vonderborch/Velentr.Core) | Generic definitions for various shape definitions (Points, Rectangles, Dimensions, and Circles)
-[Velentr.Helpers](https://github.com/vonderborch/Velentr.Helpers) | [Velentr.Core](https://github.com/vonderborch/Velentr.Core) | Various core helpers, coming soon!
-[Velentr.Math](https://github.com/vonderborch/Velentr.Math) | [Velentr.Core](https://github.com/vonderborch/Velentr.Core) | A variety of math helpers that I've found useful
-[Velentr.Miscellaneous](https://github.com/vonderborch/Velentr.Miscellaneous) | [Velentr.Core](https://github.com/vonderborch/Velentr.Core) | Miscellaneous helper methods and things that are useful for various purposes
-
 <!-- 
 [Velentr.](https://github.com/vonderborch/Velentr.) | Active | 
 -->
@@ -138,10 +140,20 @@ These are small projects that I wrote to help out with some basic task.
 Repo | Language | State | Summary
 ---- | -------- | ----- | -------
 [Apertium.Net](https://github.com/vonderborch/Apertium.Net) | C# | Active | A helper library for using Apertium for machine translations
-[FenrirFS](https://github.com/vonderborch/FenrirFS) | C# | Abandoned/Archived | A project to allow for consistent cross-platform file system access using PCL's. Abandoned due to similar stuff in .NET Standard
-[PclNumberConverters](https://github.com/vonderborch/PclNumberConverters) | C# | Abandoned/Archived | A project to allow conversion between a variety of different measurement systems in a cross-platform way using PCL's
-[PclSystemInfo](https://github.com/vonderborch/PclSystemInfo) | C# | Abandoned/Archived | A project to gather a variety of system information (processor count, ram amount, etc.) in a cross-platform way using PCL's
 [SharpFont](https://github.com/vonderborch/SharpFont) | C# | Up-To-Date with Base Repo | A fork of [Robmaister's SharpFont](https://github.com/Robmaister/SharpFont) that builds on the work to allow the library to be used with .NET Standard
+
+## Archived/Abandoned Packages
+
+Repo | Language | Replacing Package | Summary
+---- | -------- | ----- | -------
+[FenrirFS](https://github.com/vonderborch/FenrirFS) | C# | N/A (.NET has similar functionality) | A project to allow for consistent cross-platform file system access using PCL's. Abandoned due to similar stuff in .NET Standard
+[PclNumberConverters](https://github.com/vonderborch/PclNumberConverters) | C# | N/A | A project to allow conversion between a variety of different measurement systems in a cross-platform way using PCL's
+[PclSystemInfo](https://github.com/vonderborch/PclSystemInfo) | C# | N/A | A project to gather a variety of system information (processor count, ram amount, etc.) in a cross-platform way using PCL's
+[Velentr.AbstractShapes](https://github.com/vonderborch/Velentr.AbstractShapes) | C# | [Velentr.Core](https://github.com/vonderborch/Velentr.Core) | Generic definitions for various shape definitions (Points, Rectangles, Dimensions, and Circles)
+[Velentr.Helpers](https://github.com/vonderborch/Velentr.Helpers) | C# | [Velentr.Core](https://github.com/vonderborch/Velentr.Core) | Various core helpers, coming soon!
+[Velentr.Math](https://github.com/vonderborch/Velentr.Math) | C# | [Velentr.Core](https://github.com/vonderborch/Velentr.Core) | A variety of math helpers that I've found useful
+[Velentr.Miscellaneous](https://github.com/vonderborch/Velentr.Miscellaneous) | C# | [Velentr.Core](https://github.com/vonderborch/Velentr.Core) | Miscellaneous helper methods and things that are useful for various purposes
+
 
 <!--
 [](https://github.com/vonderborch/) | C# | Active | A project to 
