@@ -17,6 +17,11 @@ Here are some ideas to get you started:
 
 ## Latest Updates
 
+2023/06/26
+- Templater released (and templates)
+- FNAUpdater updated
+- CrossCommands package released (allows for command execution on Windows/*Nix systems)
+
 2023/06/09:
 - SolutionCreator and SolutionCreator-Templates: Archived, rebuilt from the ground-up and being replaced by Templater and Templater-Templates respectively.
 
@@ -72,7 +77,7 @@ Repo | Language | State | Summary
 [ColumnCopier](https://github.com/vonderborch/ColumnCopier) | C# | Paused (rework desired) | A project to copy spreadsheet data (seperated by tabs, spaces, semi-colans, etc.) and display it in column format (and allow copying of single columns, etc.). Handy for working with databases
 [FnaUpdater](https://github.com/vonderborch/FnaUpdater) | C# | Active | A way to install and keep FNA up-to-date
 [FolderSync](https://github.com/vonderborch/FolderSync) | C# | Abandoned/Archived | A project to keep two files in a source destination synced with a destination destination
-[Templater](https://github.com/vonderborch/Templater) | C# | Development | A program that allows for creating solutions from custom-built templates. Built since building multi-project templates in Visual Studio was annoying after awhile. Related repo is the [Templates repo](https://github.com/vonderborch/Templater-Templates).
+[Templater](https://github.com/vonderborch/Templater) | C# | Active | A program that allows for creating solutions from custom-built templates. Built since building multi-project templates in Visual Studio was annoying after awhile. Related repo is the [Templates repo](https://github.com/vonderborch/Templater-Templates).
 [Stellaris Ironman Save Toggler](https://github.com/vonderborch/stellaris_ironman_toggle) | C# | Active | Toggles a Stellaris Ironman Save between being Ironman and not
 [ToDoList](https://github.com/vonderborch/To-Do-List) | C# | Active | A simple to-do-list app I made for myself
 
@@ -140,6 +145,7 @@ These are small projects that I wrote to help out with some basic task.
 Repo | Language | State | Summary
 ---- | -------- | ----- | -------
 [Apertium.Net](https://github.com/vonderborch/Apertium.Net) | C# | Active | A helper library for using Apertium for machine translations
+[CrossCommands)(https://github.com/vonderborch/CrossCommands) | C# | Active | A helper library for executing commands across different platforms
 [SharpFont](https://github.com/vonderborch/SharpFont) | C# | Up-To-Date with Base Repo | A fork of [Robmaister's SharpFont](https://github.com/Robmaister/SharpFont) that builds on the work to allow the library to be used with .NET Standard
 
 ## Archived/Abandoned Packages
