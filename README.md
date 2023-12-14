@@ -17,6 +17,11 @@ Here are some ideas to get you started:
 
 ## Latest Updates
 
+2023/12/13
+- Lots of time away from personal stuff due to work, but starting to get into the swing of things again...
+- Templater (and Templater-Templates) repos have been retired/archived and replaced with ProjectTools (which contains templates in the repo). I did not particularly like the coding for Templater + naming wise it felt wrong for some plans I have for eventual additions
+- NOTE: I'll be going through this file soon and reorganizing it to make it easier to update going forwards
+
 2023/06/26
 - Templater released (and templates)
 - FNAUpdater updated
@@ -24,22 +29,6 @@ Here are some ideas to get you started:
 
 2023/06/09:
 - SolutionCreator and SolutionCreator-Templates: Archived, rebuilt from the ground-up and being replaced by Templater and Templater-Templates respectively.
-
-2022/11/17:
-- SolutionCreator-Templates: Minor updates based on testing/using the new versions of the templates.
-- Velentr.Core: logo updates to make more consistent with other repos as they get (re)built.
-- Velentr.Collections: bumped to v2, brought in-line with current repo organizational standards.
-- Velentr.Debugging: Renamed to Velentr.PerformanceMetrics. Bumped to v2, brought in-line with current repo organizational standards. Added a version of the Game class that has the performance metrics built-into it.
-
-2022/11/16:
-- Experimental updates to the SolutionCreator. The program ain't stable atm and I need to clean it up a ton, so not doing a full release.
-- SolutionCreator-Templates: templates for SolutionCreator live here now, updated them to bring them all in-line with each other and make things more consistent.
-- Velentr.Core (released) now replaces Velentr.AbstractShapes, Velentr.Helpers, Velentr.Math, and Velentr.Miscellaneous (the four of which are now archived).
-
-2022/08/06:
-- Updated ToDoList app with some extra functionality/improvements
-- Added Velentr.Helpers library
-- Tweaks to the SolutionCreator templates that I've built based on usage
 
 ## Todo
 - ~~Finished first-pass of Velentr libraries~~
@@ -77,7 +66,8 @@ Repo | Language | State | Summary
 [ColumnCopier](https://github.com/vonderborch/ColumnCopier) | C# | Paused (rework desired) | A project to copy spreadsheet data (seperated by tabs, spaces, semi-colans, etc.) and display it in column format (and allow copying of single columns, etc.). Handy for working with databases
 [FnaUpdater](https://github.com/vonderborch/FnaUpdater) | C# | Active | A way to install and keep FNA up-to-date
 [FolderSync](https://github.com/vonderborch/FolderSync) | C# | Abandoned/Archived | A project to keep two files in a source destination synced with a destination destination
-[Templater](https://github.com/vonderborch/Templater) | C# | Active | A program that allows for creating solutions from custom-built templates. Built since building multi-project templates in Visual Studio was annoying after awhile. Related repo is the [Templates repo](https://github.com/vonderborch/Templater-Templates).
+[Templater](https://github.com/vonderborch/Templater) | C# |  Abandoned/Archived | A program that allows for creating solutions from custom-built templates. Built since building multi-project templates in Visual Studio was annoying after awhile. Related repo is the [Templates repo](https://github.com/vonderborch/Templater-Templates).
+[ProjectTools](https://github.com/vonderborch/ProjectTools) | C# | Active | A program that allows for creating solutions from custom-built templates. Built since building multi-project templates in Visual Studio was annoying after awhile.
 [Stellaris Ironman Save Toggler](https://github.com/vonderborch/stellaris_ironman_toggle) | C# | Active | Toggles a Stellaris Ironman Save between being Ironman and not
 [ToDoList](https://github.com/vonderborch/To-Do-List) | C# | Active | A simple to-do-list app I made for myself
 
