@@ -17,18 +17,19 @@ Here are some ideas to get you started:
 
 ## Latest Updates
 
+2025/06/25 (missed ~18 months of updates, although some of that time I didn't do toooooo much...)
+- ProjectTools -> been rebuilt for a while from the ground up. Easier to use and has a GUI app + CLI. Also worked on the default templates a lot.
+- SimpleBlackboard.Net -> A package for using Blackboard data structures in C# more easily
+- Singletons.Net -> A package with a number of Singleton implementations
+- Velentr.Core -> rebuilt
+- Velentr.FiniteStateMachine -> rebuilt
+- Velentr.Collections -> rebuilt
+- In progress: Validations.Net (a package for validating things) + continue work on going through `Velentr.` packages
+
 2023/12/13
 - Lots of time away from personal stuff due to work, but starting to get into the swing of things again...
 - Templater (and Templater-Templates) repos have been retired/archived and replaced with ProjectTools (which contains templates in the repo). I did not particularly like the coding for Templater + naming wise it felt wrong for some plans I have for eventual additions
 - NOTE: I'll be going through this file soon and reorganizing it to make it easier to update going forwards
-
-2023/06/26
-- Templater released (and templates)
-- FNAUpdater updated
-- CrossCommands package released (allows for command execution on Windows/*Nix systems)
-
-2023/06/09:
-- SolutionCreator and SolutionCreator-Templates: Archived, rebuilt from the ground-up and being replaced by Templater and Templater-Templates respectively.
 
 ## Todo
 - ~~Finished first-pass of Velentr libraries~~
@@ -137,6 +138,8 @@ Repo | Language | State | Summary
 [Apertium.Net](https://github.com/vonderborch/Apertium.Net) | C# | Active | A helper library for using Apertium for machine translations
 [CrossCommands)(https://github.com/vonderborch/CrossCommands) | C# | Active | A helper library for executing commands across different platforms
 [SharpFont](https://github.com/vonderborch/SharpFont) | C# | Up-To-Date with Base Repo | A fork of [Robmaister's SharpFont](https://github.com/Robmaister/SharpFont) that builds on the work to allow the library to be used with .NET Standard
+[SimpleBlackboard.Net](https://github.com/vonderborch/SimpleBlackboard.Net) | C# | Active | A package to make using the Blackboard data structure in C# easier.
+[Singletons.Net](https://github.com/vonderborch/Singletons.Net) | C# | Active | A package containing a variety of Singleton implementation that can be used in downstream projects.
 
 ## Archived/Abandoned Packages
 
